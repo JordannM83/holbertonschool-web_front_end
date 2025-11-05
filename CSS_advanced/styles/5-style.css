@@ -1,7 +1,7 @@
 /* Task: Define font size custom properties in root, set html font to 62.5%, and body font-size to medium */
 html {
     scroll-behavior: smooth;
-    font: 62.5%;
+    font-size: 62.5%;
 }
 
 body {
