@@ -14,6 +14,7 @@ body {
 
 a {
     color: var(--text-color);
+    text-decoration: none;
 }
 
 .visually-hidden {
@@ -22,6 +23,10 @@ a {
 
 .card-category {
     color: var(--color-primary);
+}
+
+.section-header {
+    text-align: var(--section-header-align);
 }
 
 .section-tagline {
@@ -52,4 +57,5 @@ h1, h2, h3, h4, h5, h6 {
     --line-height-small: 1.2;
     --line-height-base: 1.5;
     --line-height-big: 1.8;
+    --section-header-align: center;
 }
