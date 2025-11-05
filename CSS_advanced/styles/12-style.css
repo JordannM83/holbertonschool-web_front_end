@@ -12,7 +12,7 @@
     --font-size-medium: 1.6rem;
     --font-size-large: 1.8rem;
     --font-size-x-large: 2.3rem;
-    --font-size-xx-large:4.8rem;
+    --font-size-xx-large: 4.8rem;
     --font-weight-regular: 400;
     --font-weight-bold: 700;
     --line-height-small: 1.2;
@@ -32,7 +32,7 @@ html {
 body {
     color: var(--text-color);
     font-family: var(--font-family-base);
-    font: var(--font-size-medium);
+    font-size: var(--font-size-medium);
     font-weight: var(--font-weight-regular);
     line-height: var(--line-height-base);
 }
@@ -70,6 +70,6 @@ h1, h2, h3, h4, h5, h6 {
 .section-tagline {
     color: var(--color-primary);
     font-family: var(--font-family-title);
-    transform: var(--section-tagline-transform);
+    text-transform: var(--section-tagline-transform);
     font-weight: var(--font-weight-bold);
 }
